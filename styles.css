@@ -1,0 +1,517 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#toggle {
+    position: absolute;
+    left: 20px;
+    background-color: #8b5e3c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.filters button {
+    padding: 8px 15px;
+    
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    background-color: #f8f3ed;
+    color: #3d2b1f;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3d2b1f;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+   
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #ead7c4;
+}
+
+nav {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d9a066;
+}
+
+
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    text-align: center;
+    color: #3d2b1f;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.hero {
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h2 {
+    text-align: left;
+    font-size: 42px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+.hero-image img {
+    width: 80%;
+    border-radius: 25px;
+    display: block;
+}
+.hero-image {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.button {
+    display: inline-block;
+
+    background-color: #8b5e3c;
+    color: white;
+
+    padding: 12px 22px;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #3d2b1f;
+}
+
+
+
+.cards {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    
+  
+}
+
+.card h3 {
+    color: #6f452c;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card strong {
+    color: #a15c28;
+    font-size: 18px;
+}
+
+.about {
+    background-color: white;
+    border-radius: 12px;
+}
+
+.about p {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+.about h3 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.about ul {
+    max-width: 350px;
+    margin: 15px auto;
+}
+
+
+.steps ol {
+    max-width: 500px;
+    margin: auto;
+
+    padding-left: 40px;
+}
+
+.steps li {
+    margin-bottom: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color:white;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #6f452c;
+    color: white;
+    padding: 13px;
+    border: 1px solid #cdbba9;
+    text-align: center;
+}
+
+td {
+    padding: 13px;
+    border: 1px solid #cdbba9;
+    text-align: center;
+}
+
+
+.reservation {
+    background-color: #efe3d7;
+}
+
+.reservation-text {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+
+    margin: 30px auto;
+
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+  
+}
+
+form > label {
+    display: block;
+
+    margin-top: 15px;
+
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 5px;
+
+    border: 1px solid #cdbba9;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+}
+
+textarea {
+    height: 100px;
+
+    resize: vertical;
+}
+
+
+.form-title {
+    margin-top: 20px;
+
+    font-weight: bold;
+}
+
+.radio-group {
+    display: flex;
+
+    gap: 25px;
+
+    margin-top: 5px;
+}
+
+.radio-group label {
+    font-weight: normal;
+}
+
+.checkbox {
+    display: flex ;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-weight: normal ;
+}
+
+.checkbox input {
+    width: auto;
+}
+
+
+button {
+    width: 100%;
+
+    margin-top: 20px;
+
+    padding: 13px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background-color: #6f452c;
+
+    color: white;
+
+    font-size: 16px;
+
+  
+}
+
+button:hover {
+    background-color: #3d2b1f;
+}
+
+
+
+footer {
+    background-color: #3d2b1f;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px 20px;
+}
+
+footer h3 {
+    font-size: 24px;
+
+    margin-bottom: 8px;
+}
+
+.links {
+    margin: 15px 0;
+}
+
+.links a {
+    color: #ead7c4;
+
+    text-decoration: none;
+
+    margin: 0 10px;
+}
+
+
+.copyright {
+    margin-top: 15px;
+
+    font-size: 14px;
+
+    color: #cdbba9;
+}
+
+
+@media (max-width: 900px) {
+
+    .cards {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .hero {
+        gap: 25px;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav {
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .hero-text h2 {
+        text-align: center;
+
+        font-size: 32px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .hero-text h2 {
+        font-size: 26px;
+    }
+
+    table {
+        font-size: 11px;
+    }
+
+    .radio-group {
+        flex-direction: column;
+
+        gap: 5px;
+    }
+
+}
+
+
+body.dark-mode td {
+    border: 1px solid #4a3525;
+    color: #4a3525 ; 
+}
+
+body.dark-mode {
+    background-color: #1a110b; 
+    color: #f3ece4;           
+}
+
+body.dark-mode section h2,
+body.dark-mode .hero-text h2 {
+    color: #ad8258; 
+}
+
+
+body.dark-mode .card,
+body.dark-mode .about {
+    background-color: #261c14; 
+    color: #e6ccb2;
+}
+
+body.dark-mode .card h3 {
+    color: #ddb892; 
+}
+
+body.dark-mode .card strong {
+    color: #ffb076; 
+}
+
+
+
+body.dark-mode .reservation {
+    background-color: #21160e; 
+}
+
+
+body.dark-mode form {
+    background-color: #261c14;
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode input[type="email"],
+body.dark-mode input[type="date"],
+body.dark-mode textarea {
+    background-color: #1a110b;
+    border: 1px solid #4a3525;
+    color: #f3ece4;
+}
+
